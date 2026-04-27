@@ -1,23 +1,45 @@
-date,time,name,category,address,lat,lng,notes
-2026-05-06,07:45,Depart SLC,transit,"Salt Lake City International Airport, UT",40.7899,-111.9791,Flight to Tokyo
-2026-05-07,14:00,Arrive Haneda Airport,transit,"Haneda Airport, Tokyo 144-0041",35.5494,139.7798,Clear customs and pick up pocket WiFi/Suica card
-2026-05-07,16:00,Limited Express Romancecar to Hakone,transit,"Shinjuku Station, Tokyo",35.6896,139.7006,Limited Express Romancecar
-2026-05-07,20:00,Arrive Hakone,transit,"Hakone, Ashigarashimo District, Kanagawa",35.2329,139.1060,Check in to Hakone Suimeisou
-2026-05-08,09:00,Hakone Day 1,activity,"Hakone, Kanagawa",35.2329,139.1060,Explore Hakone with 3-Day Pass
-2026-05-08,10:00,Hakone Amazake Tea House,activity,"Hakone, Kanagawa",35.2295,139.0190,Traditional tea house offering classic sweet treats & outdoor seating
-2026-05-08,12:00,Hakone Open-Air Museum,activity,"Hakone Open-Air Museum, Hakone, Kanagawa",35.2338,139.0293,Museum with outdoor sculpture gardens, indoor exhibits, and hot spring scenery
-2026-05-08,15:30,Tamura Ginkatsu-tei,restaurant,"Tamura Ginkatsu-tei, Hakone, Kanagawa",35.2330,139.0265,Open 11AM–2:30PM and 5–7PM; famous pork cutlet rice bowl
-2026-05-09,09:00,Hakone Day 2,activity,"Hakone, Kanagawa",35.2329,139.1060,Last day in Hakone - 3-Day Pass
-2026-05-09,09:30,Lake Ashi,activity,"Lake Ashi, Hakone, Kanagawa",35.2118,139.0140,Sightseeing cruises on scenic crater lake with nearby hiking trails
-2026-05-09,12:30,Ashinoko Skyline Rest House Lake View,restaurant,"Ashinoko Skyline Rest House Lake View, Hakone, Kanagawa",35.2348,139.0220,Open 9AM–5PM with lake views
-2026-05-09,14:00,Train from Odawara to Kyoto,transit,"Odawara Station, Kanagawa",35.2564,139.1551,Train not yet booked
-2026-05-09,18:00,Arrive Kyoto,transit,"Kyoto Station, Kyoto",34.9856,135.7583,Check in to Mitsui Garden Hotel Kyoto Shinmachi Bettei
-2026-05-10,09:00,Kyoto Day 1,activity,"Kyoto",35.0116,135.7681,Not yet planned
-2026-05-11,09:00,Kyoto Day 2,activity,"Kyoto",35.0116,135.7681,Not yet planned
-2026-05-12,09:00,Kyoto Day 3,activity,"Kyoto",35.0116,135.7681,Not yet planned
-2026-05-13,09:00,Kyoto Day 4,activity,"Kyoto",35.0116,135.7681,Not yet planned
-2026-05-14,10:00,Train from Kyoto to Shinjuku,transit,"Kyoto Station, Kyoto",34.9856,135.7583,Train not yet booked
-2026-05-14,13:00,Arrive Shinjuku,transit,"Shinjuku Station, Tokyo",35.6896,139.7006,Check in to Onsen Ryokan Yuen Bettei Tokyo Daita
-2026-05-15,09:00,Tokyo Day 1,activity,"Tokyo",35.6762,139.6503,Not yet planned
-2026-05-16,09:00,Tokyo Day 2,activity,"Tokyo",35.6762,139.6503,Not yet planned
-2026-05-17,16:00,Depart Haneda Airport,transit,"Haneda Airport, Tokyo",35.5494,139.7798,Flight HND to SLC
+date,time,name,category,address,lat,lng,notes,status
+2026-05-06,07:45,Depart SLC,transit,"Salt Lake City International Airport, UT",40.7899,-111.9791,Flight to Tokyo,confirmed
+2026-05-07,14:00,Arrive Haneda Airport,transit,"Haneda Airport, Tokyo 144-0041",35.5494,139.7798,Clear customs and pick up pocket WiFi/Suica card,confirmed
+2026-05-07,16:00,Limited Express Romancecar to Hakone,transit,"Shinjuku Station, Tokyo",35.6896,139.7006,Limited Express Romancecar,confirmed
+2026-05-07,17:00,Shinjuku - Hakone 1700 Train,transit,"Hakone, Kanagawa",35.2329,139.1060,40 minutes from Shinjuku,confirmed
+2026-05-07,20:00,Arrive Hakone,transit,"Hakone, Ashigarashimo District, Kanagawa",35.2329,139.1060,Check in to Hakone Suimeisou,confirmed
+2026-05-08,10:00,Hakone Open-Air Museum,activity,"Hakone Open-Air Museum, Hakone, Kanagawa",35.2338,139.0293,2 hrs. Don't miss stained-glass Symphonic Sculpture tower and Picasso pavilion. Discounted with Hakone Freepass.,confirmed
+2026-05-08,12:00,Tamura Ginkatsu-tei,restaurant,"Tamura Ginkatsu-tei, Hakone, Kanagawa",35.2433,139.0560,Tofu Katsuni - fried tofu stuffed with minced meat. Line up at opening.,confirmed
+2026-05-08,13:30,Hakone Craft House,activity,"Gora Park, Hakone, Kanagawa",35.2433,139.0470,Glass beads experience (1.5 hrs). Pre-book online. Rated 4.8 stars.,confirmed
+2026-05-08,15:30,Amazake Chaya Tea House,activity,"Old Tokaido Road, Hakone, Kanagawa",35.2178,139.0314,400-year-old teahouse run by same family for 13 generations. Order amazake and sesame mochi. Cash only!,confirmed
+2026-05-09,09:00,Hakone Day 2,activity,"Hakone, Kanagawa",35.2329,139.1060,Last day in Hakone - 3-Day Pass,confirmed
+2026-05-09,10:00,Lake Ashi stroll,activity,"Lake Ashi, Hakone, Kanagawa",35.2118,139.0140,Walk the shoreline. Mt. Fuji views weather permitting. Spot the Peace Torii gate.,confirmed
+2026-05-09,10:30,Hakone Sightseeing Cruise,activity,"Lake Ashi, Hakone, Kanagawa",35.2118,139.0140,Iconic cruise boat. Consider upgrading to first class for deck access. Covered by Hakone Freepass.,confirmed
+2026-05-09,12:30,Ashinoko Skyline Rest House Lake View,restaurant,"Ashinoko Skyline Rest House Lake View, Hakone, Kanagawa",35.2348,139.0220,Open 9AM-5PM with lake views,confirmed
+2026-05-09,15:00,Hakone-no-ichi Shop,activity,"Hakone-Yumoto Station, Hakone, Kanagawa",35.2322,139.1046,Sweet potato snacks and souvenirs. Open until 8 PM. Discounts with Hakone Freepass.,confirmed
+2026-05-09,18:00,Train from Odawara to Kyoto,transit,"Odawara Station, Kanagawa",35.2564,139.1551,Train from Odawara to Kyoto (1 hr 43 min). Need to purchase tickets.,confirmed
+2026-05-09,20:00,Arrive Kyoto,transit,"Kyoto Station, Kyoto",34.9856,135.7583,Check in to Mitsui Garden Hotel Kyoto Shinmachi Bettei,planning
+2026-05-10,09:00,To-ji Temple,activity,"To-ji Temple, Kyoto",34.9803,135.7478,Historic Buddhist temple with 5-story wooden pagoda. Open 8AM-5PM.,planning
+2026-05-10,11:00,Nishiki Market,activity,"Nishiki Market, Kyoto",35.0050,135.7646,400-year-old iconic market with stalls offering Japanese edibles.,planning
+2026-05-10,13:00,Kiyomizu-dera,activity,"Kiyomizu-dera, Higashiyama, Kyoto",34.9949,135.7850,Iconic Buddhist temple on Mount Otowa. Open 6AM-6PM.,planning
+2026-05-10,15:00,Nidec Kyoto Tower,activity,"Nidec Kyoto Tower, Kyoto",34.9875,135.7594,Observation deck with binoculars & touch-screen guides. Open 10AM-9PM.,planning
+2026-05-11,09:00,Okochi Sanso Garden,activity,"Okochi Sanso, Arashiyama, Kyoto",35.0178,135.6700,Elegant tranquil Japanese gardens with scenic views & tea house. Open 9AM-5PM.,planning
+2026-05-11,10:00,Hozugawa River Boat Ride End Point,activity,"Hozugawa River, Arashiyama, Kyoto",35.0133,135.6778,2-hr riverboat ride with oars & bamboo poles past rapids. Open 9AM-3PM.,planning
+2026-05-11,12:00,Arashiyama Park Kameyama Area,activity,"Arashiyama Park, Kyoto",35.0150,135.6730,Scenic area known for cherry blossoms in spring.,planning
+2026-05-11,12:30,Arashiyama Bamboo Forest,activity,"Arashiyama Bamboo Grove, Kyoto",35.0170,135.6713,Sightseeing path through towering bamboo stalks.,planning
+2026-05-11,13:30,Hokyo-in,activity,"Hokyo-in, Sagano, Kyoto",35.0210,135.6690,Temple in the Sagano area of Arashiyama.,planning
+2026-05-11,14:00,Jojakkoji Temple,activity,"Jojakkoji Temple, Sagano, Kyoto",35.0222,135.6680,Buddhist temple in a serene forest with views. Open 9AM-4:30PM.,planning
+2026-05-11,16:00,Kyoto Gyoen National Garden,activity,"Kyoto Gyoen, Kamigyo, Kyoto",35.0250,135.7620,Large park surrounding the Kyoto Imperial Palace.,planning
+2026-05-11,17:00,Kankame Inari-jinja Shrine,activity,"Kankame Inari-jinja, Kyoto",35.0100,135.7200,Inari shrine in Kyoto.,planning
+2026-05-11,18:00,Saihoji (Kokedera) Temple,activity,"Saihoji, Nishikyo, Kyoto",35.0000,135.6850,Zen Buddhist temple with extensive moss garden. Requires advance reservation.,planning
+2026-05-12,09:00,Kyoto Botanical Gardens,activity,"Kyoto Botanical Gardens, Kyoto",35.0508,135.7630,Expansive botanical garden showcasing exotic plants. Open 9AM-5PM.,planning
+2026-05-12,11:00,Shimogamo Shrine,activity,"Shimogamo Shrine, Kyoto",35.0394,135.7725,Legendary 2000-year-old shrine in a tranquil riverside forest. Open 6AM-5PM.,planning
+2026-05-12,12:00,Tadasu-no-Mori Forest,activity,"Tadasu-no-Mori, Shimogamo, Kyoto",35.0380,135.7710,Peaceful forested park with cherry & plum trees and walking paths.,planning
+2026-05-13,09:00,Nara Park,activity,"Nara Park, Nara",34.6851,135.8430,Public park with ancient temples & Nara National Museum plus tame deer.,planning
+2026-05-13,14:00,Uji,activity,"Uji, Kyoto Prefecture",34.8889,135.8077,City known for Byodo-in Temple and green tea. Travel guide: decafjournal.com/uji-nara-japan-travel-guide/,planning
+2026-05-14,10:00,Train from Kyoto to Shinjuku,transit,"Kyoto Station, Kyoto",34.9856,135.7583,Train not yet booked,planning
+2026-05-14,14:00,Arrive Shinjuku,transit,"Shinjuku Station, Tokyo",35.6896,139.7006,Check in to Onsen Ryokan Yuen Bettei Tokyo Daita,planning
+2026-05-14,19:00,Bar Benfiddich,activity,"Nishi-Shinjuku, Shinjuku, Tokyo",35.6938,139.6992,Cocktail bar in Shinjuku.,planning
+2026-05-15,09:00,Shinjuku Gyoen National Garden,activity,"Shinjuku Gyoen, Shinjuku, Tokyo",35.6852,139.7100,Former estate now a 144-acre park with diverse gardens & greenhouse. Open 9AM-4PM.,planning
+2026-05-15,12:00,teamLab Borderless,activity,"Azabudai Hills, Minato, Tokyo",35.6595,139.7310,Immersive museum with futuristic digital art installations. Open 8:30AM-9PM.,planning
+2026-05-15,15:00,Nakano Broadway,activity,"Nakano Broadway, Nakano, Tokyo",35.7075,139.6650,Shopping center for anime & comics plus boutiques and eateries. Open 10AM-8PM.,planning
+2026-05-15,18:00,Hachigatsu no Kujira - The Whales of August,activity,"Shimokitazawa, Setagaya, Tokyo",35.6610,139.6680,Bar/restaurant near the hotel.,planning
+2026-05-16,10:00,Asakusa Shrine,activity,"Asakusa Shrine, Taito, Tokyo",35.7148,139.7967,Prominent 1649 Shinto shrine. Hosts Sanja Matsuri festival in May.,planning
+2026-05-16,13:00,Kappabashi Kitchen Supply Town,activity,"Kappabashi, Taito, Tokyo",35.7131,139.7878,Popular shopping street for restaurant-supply shops & kitchen equipment. Open 10AM-5PM.,planning
+2026-05-17,16:00,Depart Haneda Airport,transit,"Haneda Airport, Tokyo",35.5494,139.7798,Flight HND to SLC,confirmed

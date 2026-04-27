@@ -24,6 +24,7 @@ const OVERVIEW_ITEMS = [
   { id: 'cafes', label: 'Cafes', icon: '☕' },
   { id: 'bars', label: 'Bars', icon: '🍺' },
   { id: 'activities', label: 'Places to Visit', icon: '📍' },
+  { id: 'trails', label: 'Hiking Trails', icon: '🥾' },
   { id: 'transit', label: 'Transit', icon: '🚆' },
 ]
 

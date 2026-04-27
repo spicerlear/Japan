@@ -4,7 +4,7 @@ import path from 'path'
 
 export interface Place {
   name: string
-  category: 'hotel' | 'restaurant' | 'activity' | 'transit'
+  category: 'hotel' | 'restaurant' | 'cafe' | 'bar' | 'activity' | 'transit'
   address: string
   lat: number
   lng: number
@@ -12,13 +12,14 @@ export interface Place {
   date_end?: string
   notes: string
   booked: boolean
+  image_url?: string
 }
 
 export interface ItineraryItem {
   date: string
   time: string
   name: string
-  category: 'hotel' | 'restaurant' | 'activity' | 'transit'
+  category: 'hotel' | 'restaurant' | 'cafe' | 'bar' | 'activity' | 'transit'
   address: string
   lat: number
   lng: number
@@ -29,6 +30,25 @@ export interface DayGroup {
   date: string
   label: string
   items: ItineraryItem[]
+}
+
+export interface Trail {
+  name: string
+  japanese_name: string
+  region: 'hakone' | 'kyoto' | 'tokyo'
+  distance_km: number
+  elevation_gain_m: number
+  duration_hrs: number
+  difficulty: 'easy' | 'moderate' | 'hard'
+  solitude: number
+  description: string
+  crowd_notes: string
+  best_dates: string[]
+  access: string
+  lat: number
+  lng: number
+  source_url: string
+  platform: string
 }
 
 function readCSV<T>(filename: string): T[] {
@@ -56,6 +76,7 @@ export function getPlaces(): Place[] {
     date_end: r.date_end || undefined,
     notes: r.notes,
     booked: r.booked === 'yes',
+    image_url: r.image_url || undefined,
   }))
 }
 
@@ -91,4 +112,26 @@ export function getItinerary(): DayGroup[] {
   }
 
   return days.sort((a, b) => a.date.localeCompare(b.date))
+}
+
+export function getTrails(): Trail[] {
+  const raw = readCSV<Record<string, string>>('trails.csv')
+  return raw.map((r) => ({
+    name: r.name,
+    japanese_name: r.japanese_name,
+    region: r.region as Trail['region'],
+    distance_km: parseFloat(r.distance_km),
+    elevation_gain_m: parseFloat(r.elevation_gain_m),
+    duration_hrs: parseFloat(r.duration_hrs),
+    difficulty: r.difficulty as Trail['difficulty'],
+    solitude: parseInt(r.solitude, 10),
+    description: r.description,
+    crowd_notes: r.crowd_notes,
+    best_dates: (r.best_dates || '').split('|'),
+    access: r.access,
+    lat: parseFloat(r.lat),
+    lng: parseFloat(r.lng),
+    source_url: r.source_url,
+    platform: r.platform,
+  }))
 }

@@ -1,0 +1,128 @@
+RESTAURANT FILTERING GUIDE — TABELOG EDITION
+=============================================
+
+HOW TABELOG SCORES WORK
+-----------------------
+Tabelog scores are MUCH harsher than Google/Yelp. Recalibrate your brain:
+
+  3.0-3.49  = Decent (would be 4.0+ on Google)
+  3.5-3.59  = Good — worth going to
+  3.6-3.69  = Very good — locals recommend these
+  3.7-3.79  = Excellent — destination-worthy
+  3.8+      = Exceptional — often reservation-only, weeks ahead
+  4.0+      = Unicorn territory — maybe 50 restaurants in all of Japan
+
+For your mid-range, slow-wandering style: target 3.5-3.7 as your sweet spot.
+Above 3.7 often means formal, expensive, and hard to book last-minute.
+
+
+YOUR FILTERING CRITERIA
+-----------------------
+For each restaurant you're considering, score it against these:
+
+1. TABELOG SCORE: 3.5+ minimum (skip anything below unless a local told you)
+2. PROXIMITY: Is it walkable from that day's planned neighborhood?
+3. PRICE: Lunch under Y3,000 / Dinner under Y6,000 (except the one splurge)
+4. VIBE FIT: Small, unpretentious, local feel (your stated preference)
+5. TIMING: Can you hit it at an off-peak hour? (5:30pm dinner, 11:30am lunch)
+6. RESERVATION: Does it need one? Can you book via Tabelog or walk in?
+
+Quick decision: If a place scores 3.5+ AND is near your route AND fits
+your price range — it goes on the shortlist. Everything else is noise.
+
+
+TABELOG SEARCH STRATEGY
+-----------------------
+Don't browse randomly. Search by NEIGHBORHOOD + CUISINE for each day:
+
+  HAKONE (May 7-9)
+  -----------------
+  Search areas: Hakone-Yumoto, Gora, Sengokuhara
+  Meals to find:
+    [ ] Dinner May 7 — probably kaiseki at ryokan (already planned?)
+    [ ] Lunch May 8 — near hiking area or Gora
+    [ ] Dinner May 8 — Hakone-Yumoto or Gora area
+    [ ] Lunch May 9 — before departing for Kyoto
+
+  KYOTO (May 9-14)
+  -----------------
+  Search areas by day:
+    Day 1 (May 9, Sat):  Gion / Pontocho / Kamogawa
+    Day 2 (May 10, Sun): Higashiyama (breakfast after dawn walk) / Maruyama area
+    Day 3 (May 11, Mon): Arashiyama / Sagano
+    Day 4 (May 12, Tue): Shimogamo / Daitoku-ji / Kamigamo (northern Kyoto)
+    Day 5 (May 13, Wed): Day-trip area (Nara/Kurama/Uji) OR near workshop
+    Day 6 (May 14, Thu): Philosopher's Path area / Kyoto Station (before train)
+
+  Meals to find:
+    [ ] 5 dinners (1 splurge kaiseki lunch replaces one of these)
+    [ ] 6 lunches (1 is the splurge kaiseki)
+    [ ] Breakfasts: mostly wing it, kissaten/cafes near hotel
+
+  SPLURGE MEAL — Kaiseki Lunch:
+    [ ] Gion Karyo — Tabelog score? Price? Book how far ahead?
+    [ ] Giro Giro Hitoshina — Tabelog score? Price? Reservation?
+    [ ] Honke Owariya — Tabelog score? (ancient soba, different vibe)
+    [ ] (Find 1-2 more via Tabelog 3.7+ kaiseki in central Kyoto)
+
+  TOKYO (May 14-16)
+  ------------------
+  Search areas by day:
+    Day 7 (May 14, Thu): Sangenjaya OR Yanaka (arrival evening izakaya)
+    Day 8 (May 15, Fri): Yanaka / Nezu (lunch) + near TeamLab (dinner)
+    Day 9 (May 16, Sat): Asakusa / Kappabashi (breakfast/lunch)
+                          + cultural night area (Ginza/Yotsuya/Harajuku)
+    Day 10 (May 17, Sun): Daikanyama or Hama-rikyu area (final breakfast)
+
+  Meals to find:
+    [ ] 3 dinners (1 is the izakaya arrival night)
+    [ ] 3 lunches
+    [ ] Breakfasts: kissaten or cafe near hotel
+
+
+HOW TO SEARCH TABELOG EFFICIENTLY
+---------------------------------
+1. Go to tabelog.com (use Chrome translate or the English toggle)
+2. Search by area name in Japanese for better results:
+     Gion = 祇園  |  Pontocho = 先斗町  |  Arashiyama = 嵐山
+     Yanaka = 谷中  |  Asakusa = 浅草  |  Sangenjaya = 三軒茶屋
+     Shimogamo = 下鴨  |  Kappabashi = 合羽橋
+3. Filter by cuisine (和食 = Japanese, 居酒屋 = izakaya, 蕎麦 = soba, etc.)
+4. Sort by rating (ランキング)
+5. Check: dinner budget (夜の予算) and lunch budget (昼の予算)
+6. Look at photo reviews — Japanese reviewers post detailed food photos
+
+Tip: Tabelog's "百名店" (Hyakumeiten / Top 100) lists are curated yearly
+awards by cuisine. Search "tabelog 百名店 2025 [cuisine]" for pre-filtered
+excellence.
+
+
+SHORTLIST TRACKER
+-----------------
+As you find candidates, add them here in this format:
+
+RESTAURANT NAME | Area | Tabelog Score | Budget | Meal Slot | Day Fit | Notes
+----------------|------|---------------|--------|-----------|---------|------
+(example)       | Gion | 3.62          | Y2,500 | Lunch     | May 10  | soba, walk-in OK
+                |      |               |        |           |         |
+
+HAKONE:
+
+
+KYOTO:
+
+
+TOKYO:
+
+
+DECISION RULES
+--------------
+When your shortlist has 3+ options for the same meal slot:
+- Pick the highest Tabelog score that fits your route
+- Break ties with: walk-in > reservation, cheaper > pricier, smaller > bigger
+- Keep 1 backup per meal in case your first pick has a line
+
+You do NOT need to pre-book every meal. Only book:
+- The splurge kaiseki (book ASAP, 2-4 weeks ahead minimum)
+- Any dinner at a place with Tabelog 3.7+ (likely needs reservation)
+- Everything else: walk in at off-peak times and you'll be fine

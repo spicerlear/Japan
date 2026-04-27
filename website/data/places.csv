@@ -1,20 +1,72 @@
-name,category,address,lat,lng,date_start,date_end,notes,booked
-Hakone Suimeisou,hotel,"〒250-0311 Kanagawa, Ashigarashimo District, Hakone, 箱根町Yumoto, 7 0 2",35.2329,139.1060,2026-05-07,2026-05-09,2 nights in Hakone,yes
-Mitsui Garden Hotel Kyoto Shinmachi Bettei,hotel,"〒604-8212 Kyoto, Nakagyo Ward, Rokkakucho, 361",35.0050,135.7560,2026-05-09,2026-05-14,5 nights in Kyoto,yes
-Onsen Ryokan Yuen Bettei Tokyo Daita,hotel,"2 Chome-31-26 Daita, Setagaya City, Tokyo 155-0033",35.6612,139.6652,2026-05-14,2026-05-17,3 nights in Tokyo,yes
-SLC to Tokyo Flight,transit,"Salt Lake City International Airport, UT",40.7899,-111.9791,2026-05-06,,Depart 7:45am May 6,yes
-Shinjuku to Hakone Train,transit,"Shinjuku Station, Tokyo",35.6896,139.7006,2026-05-07,,Limited Express Romancecar,yes
-Odawara to Kyoto Train,transit,"Odawara Station, Kanagawa",35.2564,139.1551,2026-05-09,,Not yet booked,no
-Kyoto to Shinjuku Train,transit,"Kyoto Station, Kyoto",34.9856,135.7583,2026-05-14,,Not yet booked,no
-Tokyo to SLC Flight,transit,"Haneda Airport, Tokyo",35.5494,139.7798,2026-05-17,,Depart ~4pm,yes
-Hakone 3-Day Pass,activity,"Hakone, Kanagawa",35.2329,139.1060,2026-05-07,2026-05-09,3-day sightseeing pass - purchased,yes
-Curry & tempura koisus,restaurant,"Kyoto, Japan",35.0116,135.7681,,,Curry and tempura restaurant,no
-Mare (wagyu),restaurant,"Kyoto, Japan",35.0116,135.7681,,,Wagyu restaurant,no
-TAREL,restaurant,"Kyoto, Japan",35.0116,135.7681,,,Restaurant,no
-Fiveran (bakery),restaurant,"Kyoto, Japan",35.0116,135.7681,,,Bakery,no
-ARCHI,restaurant,"Kyoto, Japan",35.0116,135.7681,,,Restaurant,no
-Hakone Amazake Tea House,activity,"Hakone, Kanagawa",35.2295,139.0190,2026-05-08,2026-05-08,Traditional tea house offering classic sweet treats & outdoor seating,no
-Hakone Open-Air Museum,activity,"Hakone Open-Air Museum, Hakone, Kanagawa",35.2338,139.0293,2026-05-08,2026-05-08,Outdoor sculpture park and museum exhibits,no
-Tamura Ginkatsu-tei,restaurant,"Tamura Ginkatsu-tei, Hakone, Kanagawa",35.2330,139.0265,2026-05-08,2026-05-08,Famous tonkatsu rice bowl restaurant,no
-Lake Ashi,activity,"Lake Ashi, Hakone, Kanagawa",35.2118,139.0140,2026-05-09,2026-05-09,Sightseeing cruises on the crater lake with nearby hiking trails,no
-Ashinoko Skyline Rest House Lake View,restaurant,"Ashinoko Skyline Rest House Lake View, Hakone, Kanagawa",35.2348,139.0220,2026-05-09,2026-05-09,Lake-view rest house open 9AM–5PM,no
+name,category,address,lat,lng,date_start,date_end,notes,booked,status
+Hakone Suimeisou,hotel,"〒250-0311 Kanagawa, Ashigarashimo District, Hakone, Yumoto, 702",35.2329,139.1060,2026-05-07,2026-05-09,2 nights in Hakone,yes,confirmed
+Mitsui Garden Hotel Kyoto Shinmachi Bettei,hotel,"〒604-8212 Kyoto, Nakagyo Ward, Rokkakucho, 361",35.0050,135.7560,2026-05-09,2026-05-14,5 nights in Kyoto,yes,planning
+Onsen Ryokan Yuen Bettei Tokyo Daita,hotel,"2 Chome-31-26 Daita, Setagaya City, Tokyo 155-0033",35.6612,139.6652,2026-05-14,2026-05-17,3 nights in Tokyo,yes,planning
+SLC to Tokyo Flight,transit,"Salt Lake City International Airport, UT",40.7899,-111.9791,2026-05-06,,Depart 7:45am May 6,yes,confirmed
+Shinjuku to Hakone Train,transit,"Shinjuku Station, Tokyo",35.6896,139.7006,2026-05-07,,Limited Express Romancecar,yes,confirmed
+Odawara to Kyoto Train,transit,"Odawara Station, Kanagawa",35.2564,139.1551,2026-05-09,,Not yet booked,no,confirmed
+Kyoto to Shinjuku Train,transit,"Kyoto Station, Kyoto",34.9856,135.7583,2026-05-14,,Not yet booked,no,planning
+Tokyo to SLC Flight,transit,"Haneda Airport, Tokyo",35.5494,139.7798,2026-05-17,,Depart ~4pm,yes,confirmed
+Hakone 3-Day Pass,activity,"Hakone, Kanagawa",35.2329,139.1060,2026-05-07,2026-05-09,3-day sightseeing pass - purchased,yes,confirmed
+Hakone Amazake Tea House,activity,"Hakone, Kanagawa",35.2295,139.0190,2026-05-08,2026-05-08,Traditional tea house offering classic sweet treats & outdoor seating,no,confirmed
+Hakone Open-Air Museum,activity,"Hakone Open-Air Museum, Hakone, Kanagawa",35.2338,139.0293,2026-05-08,2026-05-08,Outdoor sculpture park and museum exhibits,no,confirmed
+Hakone Craft House,activity,"Gora Park, Hakone, Kanagawa",35.2433,139.0470,2026-05-08,2026-05-08,Glass beads experience (1.5 hrs). Pre-book online at crafthouse-reserve.com. Rated 4.8 stars.,no,confirmed
+Lake Ashi,activity,"Lake Ashi, Hakone, Kanagawa",35.2118,139.0140,2026-05-09,2026-05-09,Sightseeing cruises on the crater lake with nearby hiking trails,no,confirmed
+Owakudani,activity,"Owakudani, Hakone, Kanagawa",35.2292,139.0228,2026-05-09,2026-05-09,Volcanic valley with steaming sulfur pools and panoramic views. Try the black eggs. Take ropeway up before noon to avoid waits.,no,confirmed
+Hakone-no-ichi Shop,activity,"Hakone-Yumoto Station, Hakone, Kanagawa",35.2322,139.1046,2026-05-09,2026-05-09,Sweet potato snacks and souvenirs. Open until 8 PM. Discounts with Hakone Freepass.,no,confirmed
+To-ji Temple,activity,"To-ji Temple, Kyoto",34.9803,135.7478,2026-05-10,2026-05-10,Historic Buddhist temple with a 5-story wooden pagoda & sculptures of deities from the 8th century. Open 8AM-5PM.,no,planning
+Nishiki Market,activity,"Nishiki Market, Kyoto",35.0050,135.7646,2026-05-10,2026-05-10,400-year-old iconic market with stalls offering all manner of Japanese edibles.,no,planning
+Kiyomizu-dera,activity,"Kiyomizu-dera, Higashiyama, Kyoto",34.9949,135.7850,2026-05-10,2026-05-10,Iconic Buddhist temple on Mount Otowa known for scenic views from its sizable veranda. Open 6AM-6PM.,no,planning
+Nidec Kyoto Tower,activity,"Nidec Kyoto Tower, Kyoto",34.9875,135.7594,2026-05-10,2026-05-10,Tower with observation deck offering binoculars & touch-screen guides plus a food court. Open 10AM-9PM.,no,planning
+Okochi Sanso Garden,activity,"Okochi Sanso, Arashiyama, Kyoto",35.0178,135.6700,2026-05-11,2026-05-11,Elegant tranquil Japanese gardens with scenic views & a tea house serving matcha & sweets. Open 9AM-5PM.,no,planning
+Hozugawa River Boat Ride End Point,activity,"Hozugawa River, Arashiyama, Kyoto",35.0133,135.6778,2026-05-11,2026-05-11,2-hr riverboat ride steered with oars & bamboo poles past rapids and lush scenery. Open 9AM-3PM.,no,planning
+Arashiyama Park Kameyama Area,activity,"Arashiyama Park, Kyoto",35.0150,135.6730,2026-05-11,2026-05-11,Scenic area known for cherry blossoms in spring & maple trees in fall. Open 24 hours.,no,planning
+Arashiyama Bamboo Forest,activity,"Arashiyama Bamboo Grove, Kyoto",35.0170,135.6713,2026-05-11,2026-05-11,Popular sightseeing path through towering bamboo stalks. Open 24 hours.,no,planning
+Hokyo-in,activity,"Hokyo-in, Sagano, Kyoto",35.0210,135.6690,2026-05-11,2026-05-11,Temple in the Sagano area of Arashiyama.,no,planning
+Jojakkoji Temple,activity,"Jojakkoji Temple, Sagano, Kyoto",35.0222,135.6680,2026-05-11,2026-05-11,Buddhist temple in a serene forest with views. Open 9AM-4:30PM.,no,planning
+Kyoto Gyoen National Garden,activity,"Kyoto Gyoen, Kamigyo, Kyoto",35.0250,135.7620,2026-05-11,2026-05-11,Large park surrounding the Kyoto Imperial Palace.,no,planning
+Kankame Inari-jinja Shrine,activity,"Kankame Inari-jinja, Kyoto",35.0100,135.7200,2026-05-11,2026-05-11,Inari shrine in Kyoto.,no,planning
+Saihoji (Kokedera) Temple,activity,"Saihoji, Nishikyo, Kyoto",35.0000,135.6850,2026-05-11,2026-05-11,Zen Buddhist temple known for its extensive moss garden. Requires advance reservation.,no,planning
+Kyoto Botanical Gardens,activity,"Kyoto Botanical Gardens, Kyoto",35.0508,135.7630,2026-05-12,2026-05-12,Expansive botanical garden showcasing exotic plants in a tranquil setting. Open 9AM-5PM.,no,planning
+Shimogamo Shrine,activity,"Shimogamo Shrine, Kyoto",35.0394,135.7725,2026-05-12,2026-05-12,Legendary 2000-year-old shrine & excavation site in a tranquil riverside forest. Open 6AM-5PM.,no,planning
+Tadasu-no-Mori Forest,activity,"Tadasu-no-Mori, Shimogamo, Kyoto",35.0380,135.7710,2026-05-12,2026-05-12,Peaceful forested park with cherry & plum trees and walking paths. Open 24 hours.,no,planning
+Nara Park,activity,"Nara Park, Nara",34.6851,135.8430,2026-05-13,2026-05-13,Public park with ancient temples & the Nara National Museum plus tame deer. Open 24 hours.,no,planning
+Uji,activity,"Uji, Kyoto Prefecture",34.8889,135.8077,2026-05-13,2026-05-13,City south of Kyoto known for shrines and temples including Byodo-in Temple. Famous for green tea.,no,planning
+Bar Benfiddich,activity,"Nishi-Shinjuku, Shinjuku, Tokyo",35.6938,139.6992,2026-05-14,2026-05-14,Cocktail bar in Shinjuku.,no,planning
+Shinjuku Gyoen National Garden,activity,"Shinjuku Gyoen, Shinjuku, Tokyo",35.6852,139.7100,2026-05-15,2026-05-15,Former estate now a 144-acre park with diverse garden areas and a greenhouse. Open 9AM-4PM.,no,planning
+teamLab Borderless,activity,"Azabudai Hills, Minato, Tokyo",35.6595,139.7310,2026-05-15,2026-05-15,Immersive museum with colorful futuristic digital art installations. Open 8:30AM-9PM.,no,planning
+Nakano Broadway,activity,"Nakano Broadway, Nakano, Tokyo",35.7075,139.6650,2026-05-15,2026-05-15,Shopping center featuring stores for anime & comics plus boutiques and eateries. Open 10AM-8PM.,no,planning
+Hachigatsu no Kujira - The Whales of August,activity,"Shimokitazawa, Setagaya, Tokyo",35.6610,139.6680,2026-05-15,2026-05-15,Bar/restaurant near the hotel.,no,planning
+Asakusa Shrine,activity,"Asakusa Shrine, Taito, Tokyo",35.7148,139.7967,2026-05-16,2026-05-16,Prominent 1649 Shinto shrine in a temple complex hosting the Sanja Matsuri festival in May. Open 24 hours.,no,planning
+Kappabashi Kitchen Supply Town,activity,"Kappabashi, Taito, Tokyo",35.7131,139.7878,2026-05-16,2026-05-16,Popular shopping street for restaurant-supply shops & kitchen-equipment dealers. Open 10AM-5PM.,no,planning
+Ashinoko Skyline Rest House Lake View,restaurant,"Ashinoko Skyline Rest House Lake View, Hakone, Kanagawa",35.2348,139.0220,2026-05-09,2026-05-09,Lake-view rest house open 9AM-5PM,no,confirmed
+Mori Meshi,restaurant,"Miyanoshita, Hakone, Kanagawa",35.2364,139.0606,2026-05-07,2026-05-08,"Tabelog 3.54 | Izakaya / Seafood | Dinner ~Y3,000-4,000 | Best izakaya in Hakone. Local Odawara seafood, oden, mountain views. Closed Wed.",no,confirmed
+Tamura Ginkatsutei,restaurant,"Gora, Hakone, Kanagawa (2 min from Gora Station)",35.2433,139.0560,2026-05-08,,"Tabelog 3.50 | Tofu Katsu | Lunch ~Y1,000-2,000 | Iconic Hakone tofu katsu nabe. Long queues, arrive before 11am. Closed Wed.",no,confirmed
+Takeyabu Hakone,restaurant,"Motohakone, Hakone, Kanagawa (near Lake Ashi)",35.2017,139.0198,2026-05-08,,"Tabelog 3.69 | Soba | Lunch ~Y1,000-2,000 | Tabelog Top 100 Soba winner 5 years running. Cash only, 22 seats. Closed Wed.",no,confirmed
+Amazake Chaya,restaurant,"Old Tokaido Road, Hakone, Kanagawa",35.2178,139.0314,2026-05-08,,"Tabelog 3.67 | Teahouse | ~Y1,000 | 400-year-old teahouse on the Old Tokaido Road. Amazake, fresh mochi, miso oden.",no,confirmed
+Yubadon Naokichi,restaurant,"Hakone-Yumoto, Kanagawa (3 min from station)",35.2322,139.1046,2026-05-09,,"Tabelog 3.49 | Yuba/Tofu | Lunch ~Y1,000-2,000 | Hakone spring-water yuba donburi. Queue expected. Good pre-departure lunch. Closed Tue.",no,confirmed
+Menan Chitose,restaurant,"Kazamatsuri, Odawara, Kanagawa (1 stop before Hakone-Yumoto)",35.2490,139.1310,2026-05-07,2026-05-09,"FIRE | Tabelog 3.79 | Ramen | Lunch ~Y1,000-2,000 | Highest-rated eatery on the Hakone route. Tabelog Top 100 Ramen. Only 15 seats, lunch only. Closed Mon. Cash only.",no,confirmed
+Curry & tempura koisus,restaurant,"Kyoto, Japan",35.0116,135.7681,,,Curry and tempura restaurant,no,planning
+Mare (wagyu),restaurant,"Kyoto, Japan",35.0116,135.7681,,,Wagyu restaurant,no,planning
+TAREL,restaurant,"Kyoto, Japan",35.0116,135.7681,,,Restaurant,no,planning
+Fiveran (bakery),restaurant,"Kyoto, Japan",35.0116,135.7681,,,Bakery,no,planning
+ARCHI,restaurant,"Kyoto, Japan",35.0116,135.7681,,,Restaurant,no,planning
+Oryori Menami,restaurant,"Sanjo Kiyamachi, Kyoto (3 min from Sanjo-Ohashi Bridge)",35.0089,135.7704,2026-05-09,,"Tabelog 3.55 | Obanzai | Dinner ~Y3,000-5,000 | Michelin Bib Gourmand. Kyoto home cooking since 1939. Perfect arrival dinner.",no,planning
+Choshoku Kishin,restaurant,"Gion, Kyoto (1F Hanatouro Hotel, 5 min from Gion-Shijo)",35.0044,135.7752,2026-05-10,,"FIRE | Tabelog 3.70 | Japanese Breakfast | ~Y3,000-4,000 | Michelin Bib Gourmand. ONLY 8 SEATS -- reserve far ahead.",no,planning
+Hinode Udon,restaurant,"Keage, Kyoto (near Nanzen-ji Temple)",35.0104,135.7916,2026-05-10,,"Tabelog Top 100 Udon | Curry Udon | Lunch ~Y1,000-1,500 | Famous 15-spice curry udon with bonito dashi.",no,planning
+Okutan Nanzenji,restaurant,"Nanzen-ji Temple grounds, Kyoto",35.0098,135.7930,2026-05-10,,"Tabelog 3.40+ | Yudofu | Lunch ~Y3,000-4,200 | Operating since 1635. Tofu boiled at your table.",no,planning
+Shoraian,restaurant,"Arashiyama, Kyoto (past bamboo grove, overlooking Oi River)",35.0162,135.6651,2026-05-11,,"Tabelog 3.5+ | Tofu Kaiseki | Lunch ~Y3,800-5,800 | #1 tofu restaurant in Arashiyama. Reserve ahead.",no,planning
+Izusen at Daiji-in,restaurant,"Daitoku-ji Temple complex, Kita-ku, Kyoto",35.0438,135.7448,2026-05-12,,"Tabelog 3.5+ | Shojin Ryori (Zen vegetarian) | Lunch ~Y3,000+ | Zen Buddhist cuisine in nested lacquer bowls.",no,planning
+Ogawa,restaurant,"Kitaoji / near Kitayama Station, Kyoto",35.0440,135.7544,2026-05-12,,"FIRE | Tabelog 3.72 | Soba | Lunch ~Y1,000-2,000 | Michelin 1-star. Only 4 tables (~12 seats). Lunch only.",no,planning
+Aji Fukushima,restaurant,"Gion, Kyoto (4 min from Gion-Shijo Station)",35.0043,135.7755,2026-05-09,2026-05-13,"FIRE | Tabelog 3.78 | Kappo/Kaiseki | Lunch ~Y7,000 / Dinner obanzai from Y500 each | Michelin star within 1.5 years.",no,planning
+Giro Giro Hitoshina,restaurant,"Kiyomizu-Gojo, Kyoto (along Takase Canal)",34.9977,135.7660,2026-05-09,2026-05-13,"Tabelog 3.6+ | Punk Kaiseki | Dinner ~Y5,000-6,000 | Creative modern kaiseki. CASH ONLY. Must book via JPNEAZY.",no,planning
+Shinpuku Saikan,restaurant,"Takabashi, Kyoto (steps from Kyoto Station)",34.9867,135.7590,2026-05-14,,"Tabelog 3.59 | Ramen | Lunch ~Y700-1,000 | Legendary dark soy sauce ramen next to Kyoto Station. Perfect final Kyoto meal.",no,planning
+Inoda Coffee Honten,restaurant,"Karasuma Oike, Kyoto (central)",35.0069,135.7598,2026-05-09,2026-05-14,"Tabelog 3.5+ | Kissaten | Breakfast ~Y1,000-1,500 | Kyoto's most iconic kissaten since 1947. Walk-in anytime.",no,planning
+Aka Oni,restaurant,"Sangenjaya, Setagaya, Tokyo (5 min from station)",35.6439,139.6701,2026-05-14,,"Tabelog 3.57 | Sake Izakaya | Dinner ~Y3,000-4,000 | 100+ sake varieties. True locals' spot. Walk-in OK.",no,planning
+Hantei,restaurant,"Nezu, Bunkyo, Tokyo (near Nezu Station)",35.7210,139.7625,2026-05-14,2026-05-15,"Tabelog 3.65 | Kushiage | Lunch ~Y3,000-4,000 / Dinner ~Y6,000-8,000 | Meiji-era building. Michelin Bib Gourmand. Closed Mon.",no,planning
+Nezu Kamachiku,restaurant,"Nezu, Bunkyo, Tokyo (near Nezu Station)",35.7194,139.7628,2026-05-15,,"Tabelog 3.67 | Udon | Lunch ~Y1,000-2,000 | Michelin Bib Gourmand. Historic stone warehouse. Handmade kamaage udon.",no,planning
+Monja Tsukushiya Honten,restaurant,"Tsukishima, Chuo, Tokyo (near Tsukishima Station)",35.6600,139.7774,2026-05-15,,"FIRE | Tabelog 3.80 | Monjayaki | Dinner ~Y2,000-3,000 | One of the highest-rated on Monja Street. Reserve.",no,planning
+Pelican Cafe,restaurant,"Tawaramachi, Taito, Tokyo (near Kappabashi)",35.7094,139.7919,2026-05-16,,"Tabelog 3.79 (bakery) | Bakery Cafe | Breakfast ~Y800-1,500 | Legendary bread since 1942. Opens 9am, expect queue.",no,planning
+Asakusa Hirayama,restaurant,"Tawaramachi, Taito, Tokyo (near Kappabashi)",35.7106,139.7885,2026-05-16,,"FIRE | Tabelog 3.72 | Soba-Kappo | Lunch ~Y2,000-4,000 | Tabelog Top 100 Soba 2025. Reserve via Tabelog.",no,planning
+IVY PLACE,restaurant,"Daikanyama, Shibuya, Tokyo",35.6490,139.7010,2026-05-17,,"Tabelog 3.5+ | Brunch Cafe | ~Y1,500-2,500 | Beautiful leafy setting. Opens 7am. Reserve via TableCheck.",no,planning
+Yakitori Tokoshima,restaurant,"Nishi-Taishido, Setagaya, Tokyo (1 stop from Sangenjaya)",35.6465,139.6660,2026-05-14,,"FIRE | Tabelog 3.72 | Yakitori | Dinner ~Y4,000-5,000 | Highest-rated yakitori in the area. Near hotel. Reserve.",no,planning
