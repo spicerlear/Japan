@@ -8,16 +8,6 @@
 - **Thu, May 7** — Arrive HND (lose a day crossing the date line)
 - **Sun, May 17** — Depart HND → arrive SLC same day
 
----
-
-## Rough Itinerary (10 days on the ground)
-
-### Tokyo — Days 1–4 (May 7–10)
-- Settle in, jet lag recovery
-- Shibuya / Shinjuku / Harajuku
-- Asakusa (Senso-ji), Akihabara
-- TeamLab Planets or Borderless
-- Day trip option: Nikko or Kamakura
 
 ### Hakone / Mt. Fuji area — Day 5 (May 11)
 - Onsen overnight
