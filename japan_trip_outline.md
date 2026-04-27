@@ -1,4 +1,4 @@
-# Japan Trip — Rough Outline
+# Japan Trip — FINAL OUTLINE
 **SLC → HND | May 6–17, 2026 (12 days)**
 
 ---
