@@ -2,45 +2,65 @@ JAPAN TRIP - OVERVIEW
 =====================
 
 Travelers: [You] & Sweizer
-Dates: May 7-17, 2026
-Arrival: Tokyo 3:35 PM PDT Thu 05/07 (~7:35 AM Tokyo time Fri 05/08)
+Dates: May 6-17, 2026
+Departure: Wed, May 6 — Depart SLC (7:45am)
+Arrival: Thu, May 7 — Arrive HND at 2pm
+Return: Sun, May 17 — Depart HND (~4pm)
 Style: Mid-range, slow & wandering
 Pace: Two anchors + drift per day
 
 ROUTE
 -----
-Hakone: May 7-10 (3 nights)
-Kyoto: May 10-14 (4 nights)
-Tokyo: May 14-17 (3 nights)
+Hakone: May 7-9 (Thu-Sat, 2 nights)
+Kyoto: May 9-14 (Sat-Thu, 5 nights)
+Tokyo: May 14-16 (Thu-Sat, 2 nights)
+Depart: May 17 (Sun)
 
-CONFIRMED BOOKINGS
-------------------
-(to be filled in)
+BOOKING STATUS
+--------------
+| Item                              | Status     |
+|-----------------------------------|------------|
+| Flights (SLC-HND-SLC)            | Booked     |
+| Shinjuku -> Hakone train (May 7)  | Booked     |
+| Hakone accommodation (May 7-9)    | Booked     |
+| Hakone 3-Day Pass                 | Purchased  |
+| Hakone -> Kyoto train (May 9)     | NOT BOOKED |
+| Kyoto accommodation (May 9-14)    | Booked     |
+| Kyoto -> Tokyo train (May 14)     | NOT BOOKED |
+| Tokyo accommodation (May 14-16)   | TBD        |
+| Return flight HND -> SLC (May 17) | Booked     |
 
 LOGISTICS
 ---------
 - Luggage forwarding (takkyubin): Send big bags from airport to Kyoto hotel (~Y2,000/bag, 1-2 days). Carry overnight bag to Hakone.
-- Airport: Haneda vs Narita still open (Haneda much easier for Hakone route)
-- Reservations needed: Saiho-ji moss garden, Shugakuin Imperial Villa, Kumano Kodo minshuku (if doing it)
+- Airport: Haneda (confirmed by flight booking)
+- Reservations needed: Saiho-ji moss garden, Shugakuin Imperial Villa, TeamLab (Fri evening), workshops
 
 SHARED RULES
 ------------
 - Crowd avoidance is non-negotiable (famous spots before 8am or after 5pm)
-- One splurge meal
+- One splurge meal (Kyoto kaiseki lunch)
 - One hands-on workshop
-- One Tokyo cultural night out
+- One Tokyo cultural night out (jazz, kabuki, or evening shrine)
 - Morning meditation / temple sit where possible
 - Hiking where possible
 
 OPEN DECISIONS
 --------------
-1. Kumano Kodo (3-day pilgrimage hike May 11-13): yes or no? Costs Kyoto days, gains an epic hike.
-2. Hakone serious hike (May 9): Mt. Kintoki (hard, Fuji views) or Tanzawa range (hardest, most remote)?
-3. Tokyo mountain day (May 16): Mt. Mitake/Odake traverse or Mt. Kumotori (highest, hardest)?
-4. Day-trip from Kyoto: Nara, Kurama/Kibune, or Uji? (if not doing Kumano Kodo)
-5. Workshop pick: indigo dyeing, knife forging, cooking class, kintsugi, or tea ceremony?
-6. Splurge meal: Kyoto kaiseki lunch, omakase sushi, or something else?
-7. Tokyo cultural night: jazz, kabuki, or evening shrine?
+1. Hakone serious hike (May 8 or 9): Mt. Kintoki (hard, Fuji views) or Tanzawa range (hardest, most remote)?
+2. Day-trip from Kyoto (May 13): Nara, Kurama/Kibune, or Uji?
+3. Workshop pick: indigo dyeing, knife forging, cooking class, kintsugi, or tea ceremony?
+4. Splurge meal: Kyoto kaiseki lunch — which restaurant?
+5. Tokyo cultural night (May 16): jazz, kabuki, or evening shrine?
+6. Kumano Kodo (3-day pilgrimage hike): still an option but would cost Kyoto days
+
+KEY TIMING NOTES
+----------------
+- Early-to-mid May: fresh green maple season (shinryoku), rice paddy flooding, wisteria, azaleas, optimal hiking weather before June rains
+- May 12 (Tue): Mikage Matsuri at Shimogamo Shrine — sacred Heian-era ritual, almost no tourists — DO NOT MISS
+- May 14 (Thu): Smaller offering ritual at Shimogamo, 10am (travel day, skip unless afternoon train)
+- May 15-17: Sanja Matsuri in Asakusa (2026 is ceremonial "Kagematsuri" year, no public mikoshi parade)
+- Weekend in Tokyo (May 16-17): popular spots more crowded, nightlife/markets at their best
 
 DAILY PRIORITIES
 ----------------
@@ -51,10 +71,3 @@ DAILY PRIORITIES
 - Late afternoon (5-7): quiet-hours famous spot, or a long walk
 - Dinner (7-9): small place
 - Evening: bar, night walk, or collapse
-
-KEY TIMING NOTES
-----------------
-- Early-to-mid May: fresh green maple season (shinryoku), rice paddy flooding, wisteria, azaleas, optimal hiking weather before June rains
-- May 12: Mikage Matsuri at Shimogamo Shrine (sacred Heian-era ritual, almost no tourists) - DO NOT MISS
-- May 15-17: Sanja Matsuri in Asakusa (2026 is ceremonial year, no public mikoshi parade)
-- Weekend in Tokyo (May 16-17): popular spots more crowded, nightlife/markets at their best

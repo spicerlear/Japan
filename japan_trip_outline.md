@@ -1,66 +1,59 @@
-# Japan Trip — FINAL OUTLINE
-**SLC → HND | May 6–17, 2026 (12 days)**
+# Japan Trip Outline
+**SLC -> HND | May 6-17, 2026 (12 days)**
 
 ---
 
-## Travel Days
-- **Wed, May 6** — Depart SLC (likely connection via LAX/SFO/SEA, ~14–16 hrs total to HND)
-- **Thu, May 7** — Arrive HND (lose a day crossing the date line)
-- **Sun, May 17** — Depart HND → arrive SLC same day
+## Travel Out
+- **Wed, May 6** — Depart SLC (7:45am)
+- **Thu, May 7** — Arrive HND at 2pm
+- Train from Shinjuku to Hakone, arrive ~8pm (tickets booked)
 
 ---
 
-## Rough Itinerary (10 days on the ground)
-
-### Tokyo — Days 1–4 (May 7–10)
-- Settle in, jet lag recovery
-- Shibuya / Shinjuku / Harajuku
-- Asakusa (Senso-ji), Akihabara
-- TeamLab Planets or Borderless
-- Day trip option: Nikko or Kamakura
-
-### Hakone / Mt. Fuji area — Day 5 (May 11)
-- Onsen overnight
-- Hakone loop (ropeway, Lake Ashi, Owakudani)
-
-### Kyoto — Days 6–8 (May 12–14)
-- Travel via Shinkansen (~2.5 hrs from Odawara)
-- Fushimi Inari, Kinkaku-ji, Arashiyama bamboo
-- Gion / tea house evening
-- Day trip: Nara (deer park, Todai-ji)
-
-### Osaka — Day 9 (May 15)
-- Dotonbori food crawl
-- Osaka Castle
-- Optional: Universal Studios Japan
-
-### Back to Tokyo — Day 10 (May 16)
-- Shinkansen back (~3 hrs)
-- Last-minute shopping (Ginza / Don Quijote)
-- Final dinner
-
-### Departure — May 17
-- HND → SLC
+## Hakone — May 7-9 (Thu-Sat)
+- Accommodation: BOOKED
+- Hakone 3-Day Pass: PURCHASED
+- Explore Hakone Thu evening through Sat
 
 ---
 
-## Pre-Trip To-Do
-- [ ] Book flights (SLC ↔ HND)
-- [ ] Reserve JR Pass (or IC card — JR Pass less worth it now, price-check)
-- [ ] Book hotels (Tokyo x2 stays, Hakone ryokan, Kyoto, Osaka)
-- [ ] Shinkansen tickets (book closer to date or via Smart-EX)
-- [ ] Pocket WiFi / eSIM
-- [ ] Passport check (6+ months validity)
-- [ ] Cash — ATMs at 7-Eleven / Japan Post work best
-- [ ] Travel insurance
-- [ ] Download: Google Maps offline, Google Translate, Suica wallet
+## Kyoto — May 9-14 (Sat-Thu)
+- Train from Hakone to Kyoto on Sat, May 9 (NOT YET BOOKED)
+- Accommodation: BOOKED (5 nights, Sat-Wed)
+- Itinerary: NOT YET PLANNED
 
 ---
 
-## Weather Notes
-- Mid-May = late spring, ~60–75°F, occasional rain. Pack layers + light rain jacket.
-- Cherry blossoms will be done — but azaleas, wisteria, and great green-season scenery.
+## Tokyo — May 14-16 (Thu-Sat)
+- Train from Kyoto to Tokyo on Thu, May 14 (NOT YET BOOKED)
+- Accommodation: TBD
+- Fri, May 15 and Sat, May 16 in Tokyo
 
 ---
 
-*This is a starting skeleton — easy to compress, expand, or rearrange.*
+## Travel Home
+- **Sun, May 17** — Depart HND (~4pm) -> SLC
+
+---
+
+## To-Do
+- [ ] Book train: Hakone to Kyoto (May 9)
+- [ ] Book train: Kyoto to Tokyo (May 14)
+- [ ] Plan Kyoto itinerary (5 days)
+- [ ] Book Tokyo accommodation (May 14-16)
+- [ ] Plan Tokyo itinerary (2 days)
+
+---
+
+## Booking Status
+| Item | Status |
+|------|--------|
+| Flights (SLC-HND-SLC) | Booked |
+| Shinjuku -> Hakone train (May 7) | Booked |
+| Hakone accommodation (May 7-9) | Booked |
+| Hakone 3-Day Pass | Purchased |
+| Hakone -> Kyoto train (May 9) | NOT BOOKED |
+| Kyoto accommodation (May 9-14) | Booked |
+| Kyoto -> Tokyo train (May 14) | NOT BOOKED |
+| Tokyo accommodation (May 14-16) | TBD |
+| Return flight HND -> SLC (May 17) | Booked |

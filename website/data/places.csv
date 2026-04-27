@@ -1,0 +1,10 @@
+name,category,address,lat,lng,date_start,date_end,notes,booked
+Hakone Suimeisou,hotel,"〒250-0311 Kanagawa, Ashigarashimo District, Hakone, 箱根町Yumoto, 7 0 2",35.2329,139.1060,2026-05-07,2026-05-09,2 nights in Hakone,yes
+Mitsui Garden Hotel Kyoto Shinmachi Bettei,hotel,"〒604-8212 Kyoto, Nakagyo Ward, Rokkakucho, 361",35.0050,135.7560,2026-05-09,2026-05-14,5 nights in Kyoto,yes
+Onsen Ryokan Yuen Bettei Tokyo Daita,hotel,"2 Chome-31-26 Daita, Setagaya City, Tokyo 155-0033",35.6612,139.6652,2026-05-14,2026-05-17,3 nights in Tokyo,yes
+SLC to Tokyo Flight,transit,"Salt Lake City International Airport, UT",40.7899,-111.9791,2026-05-06,,Depart 7:45am May 6,yes
+Shinjuku to Hakone Train,transit,"Shinjuku Station, Tokyo",35.6896,139.7006,2026-05-07,,Limited Express Romancecar,yes
+Odawara to Kyoto Train,transit,"Odawara Station, Kanagawa",35.2564,139.1551,2026-05-09,,Not yet booked,no
+Kyoto to Shinjuku Train,transit,"Kyoto Station, Kyoto",34.9856,135.7583,2026-05-14,,Not yet booked,no
+Tokyo to SLC Flight,transit,"Haneda Airport, Tokyo",35.5494,139.7798,2026-05-17,,Depart ~4pm,yes
+Hakone 3-Day Pass,activity,"Hakone, Kanagawa",35.2329,139.1060,2026-05-07,2026-05-09,3-day sightseeing pass - purchased,yes
