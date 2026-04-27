@@ -36,22 +36,30 @@ export default function TripPlanner({ places, days }: TripPlannerProps) {
       }))
     }
 
-    const categoryMap: Record<string, string> = {
-      hotels: 'hotel',
-      restaurants: 'restaurant',
-      activities: 'activity',
-      transit: 'transit',
+    let filteredPlaces = places
+    if (activeView === 'hakone-restaurants') {
+      filteredPlaces = places.filter(p => p.category === 'restaurant' && p.address.includes('Hakone'))
+    } else if (activeView === 'kyoto-restaurants') {
+      filteredPlaces = places.filter(p => p.category === 'restaurant' && p.address.includes('Kyoto'))
+    } else if (activeView === 'tokyo-restaurants') {
+      filteredPlaces = places.filter(p => p.category === 'restaurant' && p.address.includes('Tokyo'))
+    } else if (activeView === 'restaurants') {
+      filteredPlaces = places.filter(p => p.category === 'restaurant')
+    } else {
+      const categoryMap: Record<string, string> = {
+        hotels: 'hotel',
+        cafes: 'cafe',
+        bars: 'bar',
+        activities: 'activity',
+        transit: 'transit',
+      }
+      const cat = categoryMap[activeView]
+      if (cat) {
+        filteredPlaces = places.filter(p => p.category === cat)
+      }
     }
 
-    const cat = categoryMap[activeView]
-    if (cat) {
-      return places
-        .filter((p) => p.category === cat)
-        .map((p) => ({ lat: p.lat, lng: p.lng, name: p.name, category: p.category }))
-    }
-
-    // All places
-    return places.map((p) => ({ lat: p.lat, lng: p.lng, name: p.name, category: p.category }))
+    return filteredPlaces.map((p) => ({ lat: p.lat, lng: p.lng, name: p.name, category: p.category }))
   }, [activeView, places, days])
 
   const handleItemClick = useCallback((item: MapPin) => {

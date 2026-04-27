@@ -11,7 +11,18 @@ interface SidebarProps {
 
 const OVERVIEW_ITEMS = [
   { id: 'hotels', label: 'Hotels & Lodging', icon: '🏨' },
-  { id: 'restaurants', label: 'Restaurants', icon: '🍴' },
+  { 
+    id: 'restaurants', 
+    label: 'Restaurants', 
+    icon: '🍴',
+    children: [
+      { id: 'hakone-restaurants', label: 'Hakone' },
+      { id: 'kyoto-restaurants', label: 'Kyoto' },
+      { id: 'tokyo-restaurants', label: 'Tokyo' }
+    ]
+  },
+  { id: 'cafes', label: 'Cafes', icon: '☕' },
+  { id: 'bars', label: 'Bars', icon: '🍺' },
   { id: 'activities', label: 'Places to Visit', icon: '📍' },
   { id: 'transit', label: 'Transit', icon: '🚆' },
 ]
@@ -19,6 +30,7 @@ const OVERVIEW_ITEMS = [
 export default function Sidebar({ days, activeView, onViewChange }: SidebarProps) {
   const [overviewOpen, setOverviewOpen] = useState(true)
   const [itineraryOpen, setItineraryOpen] = useState(true)
+  const [restaurantsOpen, setRestaurantsOpen] = useState(false)
 
   return (
     <aside className="w-56 shrink-0 bg-[#1e1e30] border-r border-white/10 flex flex-col h-full overflow-y-auto">
@@ -48,17 +60,47 @@ export default function Sidebar({ days, activeView, onViewChange }: SidebarProps
         {overviewOpen && (
           <div className="pb-2">
             {OVERVIEW_ITEMS.map((item) => (
-              <button
-                key={item.id}
-                onClick={() => onViewChange(item.id)}
-                className={`w-full text-left px-8 py-1.5 text-sm transition-colors ${
-                  activeView === item.id
-                    ? 'text-white bg-white/10 font-medium'
-                    : 'text-white/60 hover:text-white hover:bg-white/5'
-                }`}
-              >
-                {item.label}
-              </button>
+              <div key={item.id}>
+                <button
+                  onClick={item.children ? () => setRestaurantsOpen(!restaurantsOpen) : () => onViewChange(item.id)}
+                  className={`w-full flex items-center gap-2 px-4 py-1.5 text-sm transition-colors ${
+                    item.children
+                      ? 'text-white/80 hover:text-white'
+                      : activeView === item.id
+                      ? 'text-white bg-white/10 font-medium'
+                      : 'text-white/60 hover:text-white hover:bg-white/5'
+                  }`}
+                >
+                  <span className="text-base">{item.icon}</span>
+                  {item.label}
+                  {item.children && (
+                    <svg
+                      className={`w-3 h-3 ml-auto transition-transform ${restaurantsOpen ? 'rotate-90' : ''}`}
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path d="M6 4l8 6-8 6V4z" />
+                    </svg>
+                  )}
+                </button>
+                {item.children && restaurantsOpen && (
+                  <div className="ml-6">
+                    {item.children.map((child) => (
+                      <button
+                        key={child.id}
+                        onClick={() => onViewChange(child.id)}
+                        className={`w-full text-left px-4 py-1 text-sm transition-colors ${
+                          activeView === child.id
+                            ? 'text-white bg-white/10 font-medium'
+                            : 'text-white/60 hover:text-white hover:bg-white/5'
+                        }`}
+                      >
+                        {child.label}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
             ))}
           </div>
         )}

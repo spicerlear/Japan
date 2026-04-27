@@ -6,6 +6,8 @@ import type { Place, DayGroup, ItineraryItem } from '@/lib/data'
 const CATEGORY_COLORS: Record<string, string> = {
   hotel: 'bg-red-500',
   restaurant: 'bg-orange-500',
+  cafe: 'bg-yellow-500',
+  bar: 'bg-purple-500',
   activity: 'bg-blue-500',
   transit: 'bg-green-500',
 }
@@ -13,6 +15,8 @@ const CATEGORY_COLORS: Record<string, string> = {
 const CATEGORY_LABELS: Record<string, string> = {
   hotel: 'Hotel',
   restaurant: 'Restaurant',
+  cafe: 'Cafe',
+  bar: 'Bar',
   activity: 'Activity',
   transit: 'Transit',
 }
@@ -20,6 +24,8 @@ const CATEGORY_LABELS: Record<string, string> = {
 const CATEGORY_ICONS: Record<string, string> = {
   hotel: '🏨',
   restaurant: '🍴',
+  cafe: '☕',
+  bar: '🍺',
   activity: '📍',
   transit: '🚆',
 }
@@ -172,6 +178,11 @@ export default function ContentPanel({
     const viewConfig: Record<string, { title: string; icon: string; category: Place['category'] }> = {
       hotels: { title: 'Hotels & Lodging', icon: '🏨', category: 'hotel' },
       restaurants: { title: 'Restaurants', icon: '🍴', category: 'restaurant' },
+      'hakone-restaurants': { title: 'Hakone Restaurants', icon: '🍴', category: 'restaurant' },
+      'kyoto-restaurants': { title: 'Kyoto Restaurants', icon: '🍴', category: 'restaurant' },
+      'tokyo-restaurants': { title: 'Tokyo Restaurants', icon: '🍴', category: 'restaurant' },
+      cafes: { title: 'Cafes', icon: '☕', category: 'cafe' },
+      bars: { title: 'Bars', icon: '🍺', category: 'bar' },
       activities: { title: 'Places to Visit', icon: '📍', category: 'activity' },
       transit: { title: 'Transit', icon: '🚆', category: 'transit' },
     }
@@ -179,7 +190,7 @@ export default function ContentPanel({
     const config = viewConfig[activeView]
     if (!config) {
       // Show all categories as accordions
-      const categories = ['hotel', 'restaurant', 'activity', 'transit'] as const
+      const categories = ['hotel', 'restaurant', 'cafe', 'bar', 'activity', 'transit'] as const
       return (
         <div className="flex-1 overflow-y-auto">
           <div className="p-6 border-b border-white/10">
@@ -191,7 +202,7 @@ export default function ContentPanel({
             return (
               <AccordionSection
                 key={cat}
-                title={viewConfig[cat === 'hotel' ? 'hotels' : cat === 'restaurant' ? 'restaurants' : cat === 'activity' ? 'activities' : 'transit'].title}
+                title={viewConfig[cat === 'hotel' ? 'hotels' : cat === 'restaurant' ? 'restaurants' : cat === 'cafe' ? 'cafes' : cat === 'bar' ? 'bars' : cat === 'activity' ? 'activities' : 'transit'].title}
                 icon={CATEGORY_ICONS[cat]}
                 count={catPlaces.length}
               >
@@ -207,7 +218,18 @@ export default function ContentPanel({
       )
     }
 
-    const filtered = places.filter((p) => p.category === config.category)
+    let filtered = places
+    if (activeView === 'hakone-restaurants') {
+      filtered = places.filter(p => p.category === 'restaurant' && p.address.includes('Hakone'))
+    } else if (activeView === 'kyoto-restaurants') {
+      filtered = places.filter(p => p.category === 'restaurant' && p.address.includes('Kyoto'))
+    } else if (activeView === 'tokyo-restaurants') {
+      filtered = places.filter(p => p.category === 'restaurant' && p.address.includes('Tokyo'))
+    } else if (activeView === 'restaurants') {
+      filtered = places.filter(p => p.category === 'restaurant')
+    } else {
+      filtered = places.filter((p) => p.category === config.category)
+    }
 
     return (
       <div className="flex-1 overflow-y-auto">
